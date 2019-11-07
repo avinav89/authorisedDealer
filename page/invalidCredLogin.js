@@ -23,7 +23,7 @@ module.exports = async () => {
         var [element_new] = await page.$x('// div[text()="Username and Password did not match."]');
         var text = await (await element_new.getProperty('textContent')).jsonValue();
         // console.log('Error ' + (text))
-        await page.screenshot({ path:'ad-screenshot.png'});
+        if (text = "Username and Password did not match.") { await page.screenshot({ path: 'ad-screenshot1.png' }); }
         return (text);
     } catch (e) {
         console.log('ERROR', e);

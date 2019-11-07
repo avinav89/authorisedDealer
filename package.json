@@ -11,5 +11,16 @@
   "dependencies": {
     "chai": "^4.2.0",
     "request": "^2.88.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinav89/authorisedDealer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avinav89/authorisedDealer/issues"
+  },
+  "homepage": "https://github.com/avinav89/authorisedDealer#readme"
 }
